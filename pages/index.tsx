@@ -19,6 +19,7 @@ export default function Home() {
           width={180}
           height={38}
           priority
+          style={{ height: 'auto' }}
         />
         <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(${inter.variable})]">
           <li className="mb-2 tracking-[-.01em]">
@@ -45,6 +46,7 @@ export default function Home() {
               alt="Vercel logomark"
               width={20}
               height={20}
+              style={{ height: 'auto' }}
             />
             Deploy now
           </a>
